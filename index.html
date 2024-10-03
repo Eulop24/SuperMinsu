@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>supermercadoMINSU</title>
+	<style type="text/css">
+		body {
+			background-color: #222121;
+			margin: 0;
+			padding: 0;
+			font-family: Arial Narrow ;
+			color: #FFFFFF;
+		}
+		header {
+			border-radius: 25px;
+			min-height: 100px;
+			width: 100%;
+			font-family: Aharoni;
+			font-size: 2.5em;
+			text-align: center;
+			color: #FFFFFF;
+			background-color: #C21315;
+			color: ;
+			margin: 20px 0;
+			padding-top: 20px;
+			text-shadow: 2px 2px 2px crimson;
+			box-shadow: 2px 2px 2px crimson;
+		}
+		nav {
+			border-radius: 15px;
+			height: 60px;
+			width: 100%;
+			margin: 20px 0;
+			background-color:beige;
+			color: brown;
+			padding-top: 10px;
+			font-size: 1.2em;
+			font-weight: bold;
+			font-family: Arial Narrow;
+		}
+		ul {
+			list-style: none;
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			padding: 0;
+		}
+		li {
+			text-align: center;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		main {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+		}
+		section {
+			border-radius: 15px;
+			flex: 3;
+			padding: 20px;
+			margin: 20px;
+			background-color: #DEDCDC;
+			font-family: Arial Narrow;
+			color: #030101;
+		}
+		aside {
+			border-radius: 15px;
+			background-color: #C21315;
+			font-family: Arial Narrow;
+			font-size: 1.2em;
+			flex: 1;
+			margin: 20px;
+			padding: 20px;
+		}
+		footer {
+			background-color: #951416;
+			height: 100px;
+			width: 100%;
+			font-family: serif;
+			color: white;
+			font-size: 1.2em;
+			text-align: center;
+			padding-top: 20px;
+		}
+		ol {
+			list-style: none;
+			padding: 0;
+		}
+		img {
+			width: 100%;
+			max-height: 150px;
+			object-fit: cover;
+		}
+		div {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+			gap: 10px;
+		}
+
+		@media (max-width: 768px) {
+			ul {
+				grid-template-columns: repeat(3, 1fr);
+			}
+			main {
+				flex-direction: column;
+			}
+			section, aside {
+				width: auto;
+				margin: 10px;
+			}
+		}
+
+		@media (max-width: 480px) {
+			header {
+				font-size: 1.8em;
+			}
+			nav {
+				font-size: 1em;
+			}
+			footer {
+				font-size: 1em;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>Supermercado MINSU S.A.</header>
+	<nav>
+		<ul> 
+			<li><a href="#Ini">Inicio</a></li>
+			<li><a href="#Mis">Misión</a></li>
+			<li><a href="#Vis">Visión</a></li>
+			<li><a href="#Pro">Productos</a></li>
+			<li><a href="#Ser">Servicios</a></li> 
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h1  id="Ini">Inicio</h1>
+			Somos una empresa de contabilidad que se dedica a gestionar y asesorar sobre los aspectos financieros de otras empresas o individuos. Esto incluye la preparación de estados financieros, el cumplimiento de normativas fiscales, y la provisión de asesoría estratégica para optimizar la salud financiera.
+			<hr>
+			<h1   id="Mis">Misión</h1>
+			Brindar servicios contables de alta calidad que ayuden a nuestros clientes a tomar decisiones informadas y estratégicas. Nos comprometemos a ofrecer soluciones personalizadas, transparencia y un enfoque proactivo en la gestión financiera, contribuyendo al crecimiento y éxito sostenible de sus negocios.
+			<hr>
+			<h1 id="Vis">Visión</h1>
+			Nuestra Visión es... Ser reconocidos como líderes en el sector contable, destacándonos por nuestra innovación y excelencia en el servicio. Aspiramos a ser el socio preferido de empresas de todos los tamaños, promoviendo la confianza y el desarrollo a largo plazo en la comunidad empresarial.
+			<hr>
+			<h1  id="Pro">Productos</h1>
+			Contamos con los siguientes productos...Software Contable: Herramientas digitales para la gestión de finanzas, facturación y reportes.
+			Informes Financieros: Reportes detallados sobre la situación económica del cliente.
+			Plantillas y Manuales: Documentos útiles para la gestión financiera.
+			<div>
+				<img src="https://th.bing.com/th/id/R.7dde6c9c6a59a5b3a82c16f21efd049f?rik=AmOuH1M4c1YCDg&riu=http%3a%2f%2fwww.quieninvento.org%2fwp-content%2fuploads%2f2013%2f08%2fCalculadora.jpg&ehk=A9e8%2bZNHj%2bMRGAgMZiS8qcuoNzQZ8oePazOn1m3b5TE%3d&risl=&pid=ImgRaw&r=0" alt="calculadora" title="calculadora"> 
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpuqwxmO69yw7g9Wfz3zkbX3VQSSXPVar9SA&s" title="Libros contables" alt="Libros contables">
+				<img src="https://thumbs.dreamstime.com/z/paquete-de-facturas-pedido-producto-y-contrato-compra-para-empresas-recibo-pago-plantilla-factura-m%C3%ADnima-vector-cobro-pagos-270246874.jpg" title="Facturas" alt="Facturas">
+				<img src="https://www.vivian.com.gt/tienda/wp-content/uploads/2020/08/IMG_0692.jpg" title="Libros de Inventario" alt="Libros de Inventario">
+				<img src="https://arimany.com/wp-content/uploads/Sub-Categoria-_Archivadores.jpg" title="Cartapacios" alt="Cartapacios">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFqyTD7nkNUj0yIS24ZYCA96WropphwBm4Wg&s" title="Foolders" alt="Foolders">
+			</div>
+			<hr>
+			<h1 id="Ser">Servicios</h1>
+			Los servicios que prestamos son los siguientes...Contabilidad General: Registro y clasificación de transacciones financieras.
+			Asesoría Fiscal: Orientación en cumplimiento de normativas fiscales y optimización de impuestos.
+			Auditoría: Revisión de estados financieros para asegurar la exactitud y cumplimiento.
+			Planificación Financiera: Estrategias para la gestión de recursos y proyecciones a futuro.
+			Consultoría Empresarial: Análisis y recomendaciones para mejorar la eficiencia y rentabilidad.
+			Gestión de Nómina: Cálculo y administración de sueldos y prestaciones.
+			Servicios de Tesorería: Manejo de flujos de efectivo y liquidez.
+			<hr>
+        </section>
+        <aside>
+        	<ol>
+        		<li><a href="https://blog.hubspot.es/sales/que-es-inventario" target="blanck">Inventario</a></li>
+        		<br>
+        		<li><a href="https://blog.hubspot.es/sales/que-es-balance-general" target="blanck">Balances</a></li>
+        		<br>
+        		<li><a href="https://www.efisco.es/contabilidad/ajuste-contable/" target="blanck">Ajustes</a></li>
+        		<br>
+        		<li><a href="https://contabilizate.com/calculo-de-impuestos" target="blanck">Calculos de impuesto</a></li>
+        	</ol>
+        </aside>
+	</main>
+	<footer>
+		Telefono: 4593-5458
+		<br>
+		e-mail: supermercadominsu@gmail.com
+	</footer>
+</body>
+</html>
+# SuperMinsu
+Página de supermercado Minsu
